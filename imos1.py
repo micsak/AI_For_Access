@@ -1,5 +1,6 @@
 import csv
 import requests
+import re
 
 mytoken = "af8b1dfa25bfbe6b4f88e3b8708a7558bc4445b890d2a83ce5dbed56923f3114"
 url = f"https://api.veslink.com/v1/imos/reports/DailyPositionReport?apiToken={mytoken}"
